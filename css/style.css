@@ -1,1 +1,78 @@
-/* Denna fil skall innehålla din CSS kod */
+body{
+    background-color: rgb(30, 31, 31);
+    min-height: 100vh;
+}
+img{
+    width: 100%;
+}
+#container {
+    display:grid;
+    grid-template-areas: 
+    'hd'
+    'nv'
+    'mn'
+    'fr'
+    
+}
+header {
+grid-area: hd;
+background-color: linear-gradient(to bottom right, black, grey);
+text-align: center; 
+color: rgb(211, 223, 52);
+
+}
+
+nav {
+    grid-area: nv;
+background-color: rgb(59, 57, 57);
+
+}
+
+main {
+grid-area: mn;
+background-color: rgb(36, 35, 34);
+color:rgb(225, 226, 228)
+}
+
+footer {
+    grid-area: fr;
+    background-color: rgb(46, 43, 43);
+    }
+    
+body {
+    background-image: linear-gradient(to bottom right, black, grey);
+}
+
+#kontakt{
+    color: rgb(219, 221, 223);
+}
+
+
+#e-mail{
+    color: rgb(219, 221, 223);
+}
+#tel{
+    color:rgb(219, 221, 223);
+}
+
+
+.hem{
+    color: rgb(225, 226, 228)
+    }
+   
+    .stat{
+        color: rgb(225, 226, 228)
+    }
+    
+    .hist{
+        color: rgb(225, 226, 228)
+     }
+
+
+.bear{
+    color: rgb(211, 223, 52);
+}
+
+.historia{
+    color: rgb(211, 223, 52); 
+}
